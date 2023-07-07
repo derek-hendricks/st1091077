@@ -22,7 +22,13 @@
 AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
 
 ''Invalid input - missing Username
-AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+'AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
 ''Invalid input - missing password
-AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+'AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - missing Username
+AddUser "", "password", "Roger", "Sanders", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - missing password
+AddUser "rnsmith", "", "Roger", "Sanders", "ABC", "416-456-0000", "rsmith@sample.com"
