@@ -30,6 +30,9 @@ AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@s
 ''Invalid input - missing Username
 AddUser "", "password", "Roger", "Sanders", "ABC", "416-456-0000", "rsmith@sample.com"
 
+''Invalid input - invalid email
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmithsample.com"
+
 ''Invalid input - missing password
 AddUser "rnsmith", "", "Roger", "Sanders", "ABC", "416-456-0000", "rsmith@sample.com"
 
